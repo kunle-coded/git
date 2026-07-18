@@ -1,3 +1,7 @@
 "use strict";
 
-console.log("Hello, world!");
+const btn = document.querySelector("button");
+
+btn.addEventListener("click", () => {
+  alert("hello, world!");
+});
