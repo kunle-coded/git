@@ -10,3 +10,25 @@ body {
   font-style: normal;
   scroll-behavior: smooth;
 }
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #353935;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav ul li {
+  color: white;
+}
